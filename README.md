@@ -9,17 +9,9 @@ HTML
 CSS
 JavaScript
 Bootstrap
-🏆 Destaques e Melhorias Futuras
-O projeto está concluído, atendendo aos requisitos do projeto. No entanto, estou aberto a futuras melhorias, como:
 
-Aprimoramentos na Responsividade
-Otimizações de Código
-Expansão de Páginas
 🚀 Site de Inspiracão
 O design do meu site foi inspirado em layouts modernos e minimalistas, com foco na apresentação clara de informações.
-
-🌐 Meu Portfolio
-Veja o resultado do meu portfolio no meu GitHub Pages
 
 ⭐ Conclusão
 O portfolio utiliza Bootstrap e outras bibliotecas relevantes. A página é responsiva, proporcionando uma experiência de usuário agradável em diversos dispositivos.
