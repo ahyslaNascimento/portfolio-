@@ -2,9 +2,9 @@
 
 .icon-container {
     display: flex;
-    justify-content: space-around; /* Ajuste conforme necessário */
-    align-items: center; /* Ajuste conforme necessário */
-    margin-top: 20px; /* Adicione margem superior conforme necessário */
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px; 
   }
   
   .tech-info i {
@@ -26,7 +26,7 @@
     display: none;
   }
   
-  /* style.css */
+
 
 .tech-info i {
     background: none;
@@ -52,7 +52,7 @@
   .info-text {
     display: block;
     text-align: center;
-    margin-top: 25px; /* Ajuste o espaçamento conforme necessário */
+    margin-top: 25px; 
   }
   
 
