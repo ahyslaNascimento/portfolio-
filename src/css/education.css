@@ -1,0 +1,19 @@
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-icon {
+    font-size: 6em; /* Ajuste o tamanho da fonte do ícone conforme necessário */
+    color: #6c757d;
+    margin-right: 10px;
+}
+

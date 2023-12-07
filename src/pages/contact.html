@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ahysla Nascimento - Contact</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/style.css">
+   </head>
+   <body>
+      <div id="animated-background"></div>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
+                  <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                  <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                  <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <main class="container mt-5 text-center">
+         <section>
+            <h1>Contact</h1>
+            <p>If you wanna contact me sent a message to my e-mail here!</p>
+            <form action="https://formspree.io/f/mdorrvop" method="POST">
+               <div class="form-group mt-5 ">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+               </div>
+               <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+         </section>
+      </main>
+      <footer class="text-light text-center py-10 fixed-bottom">
+         <p>&copy; 2023 Ahysla Nascimento - All rights reserved</p>
+      </footer>
+      <script src="../js/script.js"></script>
+   </body>
+</html>

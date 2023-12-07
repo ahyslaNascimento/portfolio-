@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'pretty';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{
+
+    font-family: 'pretty';
+    color: #00FF00;
+    
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/4/8/359937.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.circle {
+    position: absolute;
+    background-color:  rgb(63,94,251);
+    opacity: 0.5;
+    border-radius: 50%;
+    animation: animateCircle linear infinite;
+    bottom: 0;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+
+@keyframes animateCircle {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    backdrop-filter: blur(100px);
+}
+.navbar .navbar-brand  {
+    backdrop-filter: blur(1px);
+    color: aliceblue;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;}
