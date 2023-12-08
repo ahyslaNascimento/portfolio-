@@ -4,18 +4,23 @@
 }
 
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'pretty';
     color: #00FF00;
+
     
 }
 body {
-    margin: 0;
-    overflow: hidden;
-    background-image: url(https://i.pinimg.com/originals/2c/1f/31/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url(https://i.pinimg.com/originals/2c/1f/31/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
+
 
 
 
